@@ -1,0 +1,38 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #3b2dbf, #6a4df4);
+  padding-left: 40px;
+  color: white;
+}
+
+.left img {
+  width: 300px;
+}
+
+.right {
+  text-align: center;
+}
+
+.right h2 {
+  font-size: 30px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.right h1 {
+  font-size: 60px;
+  margin: 10px 0;
+  background: orange;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+}
